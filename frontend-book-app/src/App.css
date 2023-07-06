@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title{
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.container{
+  display: flex;
+}
+.addbooks{
+  width:30%;
+  padding: 2%;
+  border-right: 1px solid black;
+  /* border:1px solid black; */
+}
+.addbooks .form{
+  /* border:1px solid red; */
+  margin : 10px;
+}
+.addbooks .form lable{
+  font-size: 16px;
+  margin: auto;
+  text-align: left;
+}
+.addbooks .form div{
+  margin: 15px;
+
+}
+.addbooks .form div label{
+  margin-bottom: 10px;
+}
+.addbooks .form input, select, textarea{
+  width:200px;
+  border:none;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+
+  background-color: #e2e2dd;
+}
+
+.addbooks .form button{
+  margin: 20px;
+  text-align: center;
+  width:100px;
+
+}
+.mybooks {
+  width:70%;
+  padding: 2%;
+  /* border:1px solid black; */
+}
+
+.mybooks h2{
+  margin: auto;
+  text-align: center;
+}
+
+.mybooks div{
+  margin: 10px;
+  padding: 10px;
+}
+.mybooks div label, select, button{
+  margin: 5px;
+}
+@media (max-width: 768px) {
+  .container{
+    display: block;
+  }
+}
